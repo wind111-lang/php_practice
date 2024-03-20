@@ -1,5 +1,5 @@
 <?php
-for ($i = 0; $i < 0; $i++) {
+for ($i = 0; $i < 10; $i++) {
     print "i = {$i}\n";
 }
 // normal for func
