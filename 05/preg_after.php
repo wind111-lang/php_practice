@@ -4,3 +4,4 @@ $str = '<p>サポートサイト<a href="https://wings.msn.to/">https://www.wing
 if (preg_match('/<a href="(.+?)">\1<\/a>/', $str, $data)){
     print htmlspecialchars($data[0]);
 }
+
