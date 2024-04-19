@@ -10,7 +10,7 @@ function showMatch($pattern,$input){
         print "マッチしません。<br />";
     }
     print "<hr />";
-}
+}//ユーザ定義関数
 
 $re1 = '/いろ(?=はに)/';
 $re2 = '/いろ(?!はに)/';
